@@ -2,6 +2,10 @@ package ccb.java.study;
 
 public enum EnumResult {
 
+    /**
+     * 这是分支dev的代码！！！
+     * */
+
     Sucessful(1,"成功"),
 
     Fail(2,"失敗");
