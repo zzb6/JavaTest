@@ -1,14 +1,12 @@
 package ccb.java.study;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
 public class RandomTest {
 
     public static boolean isExist(Integer[] a, int r) {
-       /* //倒序排序
+       /** //倒序排序
         Arrays.sort(a, Collections.reverseOrder());
 
 
@@ -17,7 +15,7 @@ public class RandomTest {
        {
            return true;
        }*/
-        for (int i = 0; i < a.length; i++) {
+        for(int i = 0; i < a.length; i++) {
             if (a[i] == r) {
                 return true;
             }

@@ -2,6 +2,9 @@ package ccb.java.study;
 
 public class BinarySelectTest {
 
+    /**
+     * git测试之版本2
+     */
     //二分查找，折半
     static int BinarySelect(int[]array,int dest){
 
